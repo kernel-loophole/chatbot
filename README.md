@@ -21,15 +21,12 @@ You can install these dependencies using pip:
 pip install Flask db-sqlite3 numpy getpass langchain tiktoken pinecone-client openai
 
 
-```bash
 git clone [repository URL]
 
-```bash
 cd project-directory
 
 # make sure to add pinecone API AND index name
 # Also put you OpenAI API  key to chat
 
-```bash
 flask run
 
